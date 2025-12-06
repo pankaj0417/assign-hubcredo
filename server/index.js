@@ -11,7 +11,7 @@ connectDB();
 
 app.use(
   cors({
-    origin:"http://localhost:5173",
+    origin:["http://localhost:5173", "https://assign-hubcredo.onrender.com"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
