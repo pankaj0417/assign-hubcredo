@@ -250,7 +250,7 @@ npm test          # Run tests (placeholder)
 
 ```env
 PORT=5000
-MONGODB_URI=mongodb+srv://user:password@cluster.mongodb.net/database
+MONGODB_URI=mongodb--------------------------------
 JWT_SECRET=your_secret_key_here
 NODE_ENV=development
 ```
